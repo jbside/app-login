@@ -1,0 +1,9 @@
+@import "../../../styles/variables.scss";
+
+input{
+    border-radius: 8px;
+    background-color: $gray-secondary-bg;
+    border: none;
+    color: $text-color;
+    font-size: 16px;
+}
