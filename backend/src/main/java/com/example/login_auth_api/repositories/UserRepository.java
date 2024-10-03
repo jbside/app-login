@@ -1,6 +1,6 @@
-package main.java.com.example.login_auth_api.repositories;
+package com.example.login_auth_api.repositories;
 
-import main.java.com.example.login_auth_api.domain.user.*;
+import com.example.login_auth_api.domain.user.*;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
