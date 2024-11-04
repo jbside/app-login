@@ -8,7 +8,7 @@ import { tap } from 'rxjs';
 })
 export class LoginService {
 
-  apiUrl : string = "https://8443-idx-app-login-1725477849212.cluster-duylic2g3fbzerqpzxxbw6helm.cloudworkstations.dev/auth/login"
+  apiUrl : string = "https://localhost:8443/auth/login"
 
   constructor(private httpClient : HttpClient) { }
 
